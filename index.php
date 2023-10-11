@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
     <title>Gerenciador de Tarefas</title>
 </head>
 <body>
@@ -13,7 +17,7 @@
     </div>
     <div class="form">
         <form action="" method="get">
-            <label for="task_name"></label>
+            <label for="task_name">Tarefa:</label>
             <input type="text" name="task_name" placeholder="Nome da Tarefa">
             <button type="submit">Cadastrar</button>
         </form>
